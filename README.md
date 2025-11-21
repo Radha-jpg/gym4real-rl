@@ -10,8 +10,11 @@ The goal is to show an end-to-end setup:
 
   We used the official gym4real repository as the base environment implementation:`https://github.com/Daveonwave/gym4ReaL`
   
-  ## Project Structure
-  ```text
+---
+
+## Project Structure
+
+```text
 .
 ├── gym4ReaL/               # Local copy of Daveonwave/gym4ReaL (installed in editable mode)
 ├── explore_environment.py   # Step 1: Explore and understand gym4real environments
@@ -21,7 +24,6 @@ The goal is to show an end-to-end setup:
 ├── requirements.txt         # Python dependencies for this project (SB3, gymnasium, etc.)
 └── .gitignore               # Ignore models, logs, venv, etc.
 ```
-
 **`list_environments.py`**
   - Utility script to:
     - Import `gym4real` (using the local `gym4ReaL/` folder).
