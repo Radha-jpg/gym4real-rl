@@ -9,6 +9,8 @@ The goal is to show an end-to-end setup:
 - Evaluating the trained agent and saving models
 
   We used the official gym4real repository as the base environment implementation:`https://github.com/Daveonwave/gym4ReaL`
+  
+  ## Project Structure
   ```text
 .
 ├── gym4ReaL/               # Local copy of Daveonwave/gym4ReaL (installed in editable mode)
